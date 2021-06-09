@@ -17,6 +17,8 @@ body {
 
 canvas {
   border: 2px solid steelblue;
+  width:800px;
+  height: 700px;
 }
 
 .toolbox {
@@ -43,4 +45,13 @@ canvas {
 
 .toolbox > *:last-child {
   margin-left: auto;
+}
+@media (max-width: 480px) {
+    canvas{
+        height: 500px;
+        width : 300px;
+    }
+    .toolbox{
+        width : 300px;
+    }
 }
